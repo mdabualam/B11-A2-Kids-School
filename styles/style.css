@@ -28,17 +28,16 @@ img {
   margin-left: 11px;
 }
 
-
 /* nav middle style */
 .nav-middle {
-    list-style: none;
-    max-width: 387px;
-  }
-  
-  .nave-middle,
-  a {
-    text-decoration: none;
-  }
+  list-style: none;
+  max-width: 387px;
+}
+
+.nave-middle,
+a {
+  text-decoration: none;
+}
 
 .home {
   font-size: 1.25rem;
@@ -80,4 +79,48 @@ img {
 /* shared styles */
 .display-flex {
   display: flex;
+}
+
+/* banner styles */
+.banner {
+  max-width: 1440px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 140px;
+}
+.banner-content {
+  width: 640px;
+}
+.banner-img {
+  width: 700px;
+  height: 850px;
+}
+
+.banner-title {
+  font-size: 56px;
+  font-weight: 700;
+}
+.empowering {
+  color: rgb(254, 163, 1);
+}
+.students {
+  color: rgb(17, 17, 17);
+}
+.vision {
+  color: rgb(1, 172, 253);
+}
+.banner-description {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(17, 17, 17);
+}
+.btn-enroll {
+  width: 197px;
+  height: 50px;
+  border-radius: 12px;
+  background: rgb(17, 17, 17);
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
 }
