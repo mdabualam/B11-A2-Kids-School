@@ -1,5 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
-body{
-    font-family: "Quicksand", serif;
+body {
+  font-family: "Quicksand", serif;
+}
+
+.nav-bar {
+  max-width: 1440px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 140px;
+  padding: 20px 0;
+}
+
+/* nav left styles */
+.nav-left {
+  align-items: center;
+}
+.nav-left,
+img {
+  width: 62px;
+  height: 62px;
+}
+.nav-text {
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(17, 17, 17);
+  margin-left: 11px;
+}
+
+
+/* nav middle style */
+.nav-middle {
+    list-style: none;
+    max-width: 387px;
+  }
+  
+  .nave-middle,
+  a {
+    text-decoration: none;
+  }
+
+.home {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: rgb(254, 163, 1);
+  margin-left: 32px;
+}
+.about {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: rgb(1, 172, 253);
+  margin-left: 32px;
+}
+.facilities {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: rgb(5, 212, 223);
+  margin-left: 32px;
+}
+.admission {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: rgb(93, 88, 239);
+  margin-left: 32px;
+}
+
+/* nav right style */
+.btn-top-right {
+  width: 197px;
+  height: 50px;
+  border-radius: 12px;
+  background: rgb(254, 163, 1);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+/* shared styles */
+.display-flex {
+  display: flex;
 }
