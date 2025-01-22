@@ -3,7 +3,9 @@
 body {
   font-family: "Quicksand", serif;
 }
-
+.nav-content{
+  width: 1440px;
+}
 .nav-bar {
   max-width: 1160px;
   align-items: center;
@@ -129,8 +131,10 @@ a {
 }
 
 /* section-1 styles */
-.section-1 {
+.section-1{
   width: 1440px;
+}
+.curriculum-container {
   padding: 60px 0;
   text-align: center;
   background-image: url(../assets/bg.png);
