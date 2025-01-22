@@ -72,7 +72,12 @@ a {
   color: rgb(255, 255, 255);
   border: none;
 }
-
+.marquee-effect{
+ margin-left: 140px;
+ font-size: 2rem;
+ font-weight: 700;
+ color: blueviolet;
+ }
 /* shared styles */
 .display-flex {
   display: flex;
@@ -81,15 +86,12 @@ a {
 /* banner styles */
 .banner{
   width: 1440px;
-/*  
-  border: 2px solid red; */
 }
 .banner-content {
   max-width: 1160px;
   margin: 0 140px;
   align-items: center;
   justify-content: space-between;
-  /* border: 2px solid black; */
 }
 .banner-info{
   width: 640px;
