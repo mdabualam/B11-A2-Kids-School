@@ -3,9 +3,11 @@
 body {
   font-family: "Quicksand", serif;
 }
-
-.nav-bar {
+header{
   max-width: 1440px;
+}
+.nav-bar {
+  max-width: 1160px;
   align-items: center;
   justify-content: space-between;
   margin: 0 140px;
@@ -31,37 +33,32 @@ img {
 /* nav middle style */
 .nav-middle {
   list-style: none;
-  max-width: 387px;
+  width: 387px;
+  justify-content: space-between;
 }
-
-.nave-middle,
+.nav-middle,
 a {
   text-decoration: none;
 }
-
 .home {
   font-size: 1.25rem;
   font-weight: 700;
   color: rgb(254, 163, 1);
-  margin-left: 32px;
 }
 .about {
   font-size: 1.25rem;
   font-weight: 500;
   color: rgb(1, 172, 253);
-  margin-left: 32px;
 }
 .facilities {
   font-size: 1.25rem;
   font-weight: 500;
   color: rgb(5, 212, 223);
-  margin-left: 32px;
 }
 .admission {
   font-size: 1.25rem;
   font-weight: 500;
   color: rgb(93, 88, 239);
-  margin-left: 32px;
 }
 
 /* nav right style */
@@ -83,12 +80,14 @@ a {
 
 /* banner styles */
 .banner {
-  max-width: 1440px;
-  align-items: center;
-  justify-content: space-between;
+  max-width: 1160px;
   margin: 0 140px;
 }
 .banner-content {
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-info{
   width: 640px;
 }
 .banner-img {
@@ -99,6 +98,7 @@ a {
 .banner-title {
   font-size: 3.5rem;
   font-weight: 700;
+  margin-bottom: 24px;
 }
 .empowering {
   color: rgb(254, 163, 1);
@@ -110,9 +110,10 @@ a {
   color: rgb(1, 172, 253);
 }
 .banner-description {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
   color: rgb(17, 17, 17);
+  margin-bottom: 24px;
 }
 .btn-enroll {
   width: 197px;
@@ -126,26 +127,28 @@ a {
 }
 
 /* section-1 styles */
-
 .section-1 {
   max-width: 1440px;
   padding: 60px 0;
-  margin: 0 140px;
   text-align: center;
   background-image: url(../assets/bg.png);
-}
-.section-card {
+  background-repeat: no-repeat;
+ }
+.cards-container{
+  max-width: 1160px;
+  margin: 0 140px;
   margin-top: 80px;
+  justify-content: space-between;
 }
 .card-one img {
   width: 130px;
   height: 110px;
 }
 .card-one {
-  width: 360px;
-  height: 465px;
+  width: 365px;
+  height: 475px;
   text-align: center;
-  padding: 60px 40px;
+  padding: 50px 40px;
   box-sizing: border-box;
   border: 0.94px solid rgb(222, 245, 255);
   border-radius: 18.86px;
@@ -162,10 +165,10 @@ a {
   height: 125px;
 }
 .card-two {
-  width: 360px;
-  height: 465px;
+  width: 365px;
+  height: 475px;
   text-align: center;
-  padding: 60px 40px;
+  padding: 40px 40px;
   box-sizing: border-box;
   border: 0.94px solid rgb(255, 244, 220);
   border-radius: 18.86px;
@@ -182,10 +185,10 @@ a {
   height: 126px;
 }
 .card-three {
-  width: 360px;
-  height: 465px;
+  width: 365px;
+  height: 475px;
   text-align: center;
-  padding: 60px 40px;
+  padding: 40px 40px;
   box-sizing: border-box;
   border: 0.94px solid rgb(242, 232, 255);
   border-radius: 18.86px;
@@ -206,13 +209,13 @@ a {
   font-size: 1.5rem;
   font-weight: 700;
   color: rgb(32, 32, 32);
-  margin-top: 35px;
+  margin-top: 30px;
 }
 .card-description {
   font-size: 1rem;
   font-weight: 500;
   color: rgb(128, 128, 128);
-  margin-top: 35px;
+  margin-top: 30px;
 }
 .card-footer-1 {
   font-size: 1rem;
@@ -231,10 +234,6 @@ a {
   font-weight: 700;
   color: rgb(135, 0, 255);
   margin-top: 50px;
-}
-
-.section-card {
-  justify-content: space-between;
 }
 .btn-slide {
   margin-top: 80px;
@@ -263,10 +262,10 @@ a {
 /* section-2 styles */
 .section-2 {
   max-width: 1440px;
-  margin: 0 140px;
-  padding: 60px 0px;
+  padding-bottom: 60px;
   background-image: url(../assets/bg.png),
     linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+  background-repeat: no-repeat;
 }
 .section2-title {
   text-align: center;
@@ -276,18 +275,18 @@ a {
   margin-bottom: 80px;
 }
 .story-content {
-  max-height: 1020px;
   justify-content: space-between;
-  padding: 0px 80px;
+  max-width: 1160px;
+  margin: 0 140px;
 }
 .story-1 img {
-  width: 425px;
-  height: 280px;
+  width: 540px;
+  height: 335px;
   border-radius: 16px 16px 0px 0px;
 }
 .story-1 {
-  width: 425px;
-  height: 580px;
+  width: 540px;
+  height: 630px;
   border-radius: 0px 0px 16px 16px;
   background: rgb(255, 255, 255);
 }
@@ -295,14 +294,14 @@ a {
   width: 400px;
   margin-top: 50px;
   margin-bottom: 30px;
-  margin-left: 20px;
+  margin-left: 40px;
   font-size: 1.5rem;
   font-weight: 700;
   color: rgb(0, 0, 0);
 }
 .story-1-description {
   max-width: 430px;
-  margin-left: 20px;
+  margin-left: 40px;
   margin-bottom: 35px;
 }
 .btn-story-1 {
@@ -315,8 +314,8 @@ a {
   font-weight: 500;
   color: rgb(255, 255, 255);
   border: none;
-  margin-left: -405px;
-  margin-top: 255px;
+  margin-left: -500px;
+  margin-top: 310px;
 }
 
 .story-2345 {
@@ -344,16 +343,16 @@ a {
 .story-3,
 .story-4,
 .story-5 {
-  width: 250px;
-  height: 280px;
+  width: 290px;
+  height: 300px;
   border-radius: 0px 0px 16px 16px;
 }
 .story-2 img,
 .story-3 img,
 .story-4 img,
 .story-5 img {
-  width: 250px;
-  height: 150px;
+  width: 290px;
+  height: 175px;
   border-radius: 16px 16px 0px 0px;
 }
 .all-view {
@@ -424,21 +423,23 @@ a {
 
 /* footer style */
 footer {
-  max-width: 1440px;
-  height: 300px;
-  margin: 0 140px;
-  padding:100px 150px 100px 100px;
+  width: 1440px;
+  height: 520px;
   background: rgb(1, 172, 253);
-  display: flex;
+ }
+.footer-content{
+  max-width: 1160px;
   justify-content: space-between;
+  padding:120px 230px 175px 140px;
 }
 .img-text-container {
   align-items: center;
+  margin-bottom: 20px;
 }
 .img-logo {
   width: 85px;
   height: 85px;
-  background: white;
+  background: rgb(1, 172, 253);;
 }
 .text {
   font-size: 2.6rem;
@@ -452,7 +453,6 @@ footer {
   font-size: 1.25rem;
   font-weight: 400;
   color: rgb(255, 255, 255);
-  margin-top: 35px;
 }
 .top-field {
   font-size: 1.5rem;
